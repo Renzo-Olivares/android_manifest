@@ -5,8 +5,7 @@
            fetch=".."
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
-           fetch="git://github.com/"
-           sync-j="4" />
+           fetch="git://github.com/"/>
   <default revision="refs/tags/android-7.1.2_r5"
            remote="aosp"
            sync-j="4" />
