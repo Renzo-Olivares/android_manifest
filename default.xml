@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Renzo-Olivares/android_build" groups="pdk" remote="github" revision="1.0"  >
+  <project path="build" name="Renzo-Olivares/android_build-1" groups="pdk" remote="github" revision="n-mr2"  >
     <copyfile src="core/root.mk" dest="Makefile" remote="aosp" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
